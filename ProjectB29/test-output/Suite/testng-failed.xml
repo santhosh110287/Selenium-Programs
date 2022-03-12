@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <parameter name="strX" value="600"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="remoteURL" value="http://192.168.43.166:4444"/>
+    <classes>
+      <class name="day33.Demo2">
+        <methods>
+          <include name="testA" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day33.Demo2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

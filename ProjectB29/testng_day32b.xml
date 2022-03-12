@@ -1,0 +1,19 @@
+
+<suite name="Suite" parallel="tests">
+  <test name="TestGC">
+  <parameter name="browser" value="chrome"/>
+   <parameter name="strX" value="0"/>
+    <classes>
+      <class name="demo32.Test2"/>
+    </classes>
+  </test> 
+  
+   <test name="TestFF">
+  <parameter name="browser" value="firefox"/>
+   <parameter name="strX" value="600"/>
+    <classes>
+      <class name="demo32.Test2"/>
+    </classes>
+  </test>  
+ </suite> 
+	

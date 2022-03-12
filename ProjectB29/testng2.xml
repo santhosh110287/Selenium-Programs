@@ -1,0 +1,15 @@
+
+
+<suite name="Suite">
+  <test name="test1_demo31">
+    <classes>
+      <class name="demo31.Demo2"/>
+     </classes>
+  </test> 
+  
+   <test name="test2_demo31">
+    <classes>
+       <class name="demo31.Demo3"/>
+       </classes>
+  </test>   
+</suite> 

@@ -1,0 +1,8 @@
+
+<suite name="Suite">
+<suite-files>
+	<suite-file path="demo2.xml"/>
+	<suite-file path="demo3.xml"/>
+	
+</suite-files>
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+
+<suite name="Suite" parallel="tests">
+  <test  name="Test">
+  <parameter name="remoteURL" value="https://oauth-santhoshkumars.cs-8d507:2b8c1514-c26e-476d-b534-726619c049ae@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="strX" value="0"/>
+  
+    <classes>
+      <class name="day33.Demo2"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test1">
+  <parameter name="remoteURL" value="https://oauth-santhoshkumars.cs-8d507:2b8c1514-c26e-476d-b534-726619c049ae@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="strX" value="600"/>
+  
+    <classes>
+      <class name="day33.Demo2"/>
+    </classes>
+  </test> 
+  
+  
+</suite>

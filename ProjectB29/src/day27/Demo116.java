@@ -1,0 +1,33 @@
+//21-02-2022
+package day27;
+//Develop the framework like this, very very important program for framework
+//Encapsulation concept:Binding data and method as a single entity
+//Example: This program
+//3 steps in the declaration: Declaration, Initialization and Utilization
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class Demo116{
+	static 
+	{
+		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+	}
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://demo.actitime.com/login.do");
+		//driver.findElement(By.id("username")).sendKeys("admin");
+
+		//WebElement unTB=driver.findElement(By.id("username"));
+		//unTB.sendKeys("admin");
+
+		//Seperate declaration, initialization and utilization of above line as
+
+		//WebElement unTB;//declaration
+		//unTB=driver.findElement(By.id("username"));//initialization
+		//unTB.sendKeys("admin");//utilization
+
+		//A a1=new A(driver);
+		//a1.setUserName("santhosh");
+	}
+}

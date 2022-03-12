@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19720" started-at="2022-03-09T16:15:38Z" finished-at="2022-03-09T16:15:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19720" started-at="2022-03-09T16:15:38Z" finished-at="2022-03-09T16:15:57Z">
+      <class name="day32.Test1">
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:day32.Test1@4f933fd1]" name="testA" duration-ms="19668" started-at="2022-03-09T16:15:38Z" finished-at="2022-03-09T16:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- day32.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
